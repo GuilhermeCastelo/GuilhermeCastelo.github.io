@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+body {
+    background-color: #282d36;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+header {
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+header img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid #5c5f64;
+}
+
+header #p-nome {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #c9d1d3;
+}
+
+header #p-cargo {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #bdbebe;
+}
+
+section {
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+section button {
+    width: 270px;
+    height: 55px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+section button:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+button i {
+    font-size: 20px;
+    margin: 15px;
+    color: #fff;
+}
+
+#btn-site{
+    background-color: #0d55bb;
+}
+
+#btn-site:hover{
+    background-color: #0c4799;
+}
+
+#btn-email {
+    background-color: #ec574c;
+}
+
+#btn-email:hover {
+    background-color: rgb(206, 71, 62);
+}
+
+#btn-instagram {
+    background: rgb(225, 68, 120);
+    background: linear-gradient(225deg, rgba(225, 68, 120, 1) 28%, rgba(255, 144, 72, 1) 100%);
+}
+
+#btn-instagram:hover {
+    background: rgb(236, 37, 103);
+    background: linear-gradient(225deg, rgb(236, 47, 110) 28%, rgb(251, 129, 48) 100%);
+}
+
+#btn-whatsapp {
+    background-color: #11aa30
+}
+
+#btn-whatsapp:hover {
+    background-color: #11942b
+}
+
+#btn-linkedin {
+    background-color: #0a81c2;
+}
+
+#btn-linkedin:hover {
+    background-color: #0f6c9e;
+}
+
+#btn-github {
+    background-color: #000000;
+}
+
+#btn-github:hover {
+    background-color: #131313;
+}
+
+@media(max-height: 600px){
+    main{
+        height: auto;
+    }
+}
