@@ -23,8 +23,10 @@ main {
 }
 
 header {
+    border: 1px solid #fff;
     width: 300px;
     margin: 5px;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,13 +50,13 @@ header #p-nome {
 
 header #p-cargo {
     margin-top: 5px;
-    margin-bottom: 3px;
     font-size: 12px;
     font-weight: 300;
     color: #bdbebe;
 }
 
 section {
+    border: 1px solid #fff;
     width: 300px;
     height: 450px;
     display: flex;
