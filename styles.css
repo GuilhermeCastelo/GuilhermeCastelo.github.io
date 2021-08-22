@@ -102,6 +102,14 @@ a i {
     background-color: rgb(206, 71, 62);
 }
 
+#btn-whatsapp {
+    background-color: #11aa30
+}
+
+#btn-whatsapp:hover {
+    background-color: #11942b
+}
+
 #btn-instagram {
     background: rgb(225, 68, 120);
     background: linear-gradient(225deg, rgba(225, 68, 120, 1) 28%, rgba(255, 144, 72, 1) 100%);
