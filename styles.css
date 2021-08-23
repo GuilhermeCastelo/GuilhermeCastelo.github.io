@@ -30,7 +30,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 5px;
 }
 
 header img {
@@ -63,7 +62,6 @@ section {
     align-content: center;
     flex-direction: column;
     margin: 5px;
-    border-radius: 5px;
 }
 
 section a {
