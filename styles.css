@@ -100,24 +100,6 @@ a i {
     background-color: rgb(206, 71, 62);
 }
 
-#btn-instagram {
-    background: rgb(225, 68, 120);
-    background: linear-gradient(225deg, rgba(225, 68, 120, 1) 28%, rgba(255, 144, 72, 1) 100%);
-}
-
-#btn-instagram:hover {
-    background: rgb(236, 37, 103);
-    background: linear-gradient(225deg, rgb(236, 47, 110) 28%, rgb(251, 129, 48) 100%);
-}
-
-#btn-whatsapp {
-    background-color: #11aa30
-}
-
-#btn-whatsapp:hover {
-    background-color: #11942b
-}
-
 #btn-linkedin {
     background-color: #0a81c2;
 }
@@ -127,11 +109,29 @@ a i {
 }
 
 #btn-github {
-    background-color: #000000;
+    background-color: #111111;
 }
 
 #btn-github:hover {
-    background-color: #131313;
+    background-color: #1a1a1a;
+}
+
+#btn-instagram {
+    background: rgb(228, 67, 121);
+    background: linear-gradient(225deg, rgb(228, 67, 121) 28%, rgb(251, 138, 62) 100%);
+}
+
+#btn-instagram:hover {
+    background: rgb(236, 37, 103);
+    background: linear-gradient(225deg, rgb(236, 47, 110) 28%, rgb(251, 129, 48) 100%);
+}
+
+#btn-whatsapp {
+    background-color: #21b63f
+}
+
+#btn-whatsapp:hover {
+    background-color: #179e32
 }
 
 @media(max-height: 600px){
