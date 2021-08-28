@@ -134,6 +134,22 @@ a i {
     background-color: #179e32
 }
 
+/* Barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #282d36;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #cecece;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #979ca8;
+}
+
 @media(max-height: 600px){
     main{
         height: auto;
